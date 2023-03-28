@@ -1,0 +1,97 @@
+
+#cor-login{
+
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 20% ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#cor-lembrar-senha{
+
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tres{
+
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 100px;
+    height: 100px;
+
+}
+
+#logo{
+
+    max-width: 100vh;
+    max-height: 130%;
+    left: -1%;
+    top: 4%;
+    width: 20% auto;
+    height: 20% auto;
+    position: absolute
+
+}
+
+#bar{
+
+    display: flex !important ;
+    justify-content: center ;
+    background-repeat: initial;
+    width: 135vh auto ;
+    height: 0vh ;
+    margin: 100px auto ;
+   
+}
+
+#tela-total{
+
+    max-width: 600px;
+    right: auto;
+    background-color: aqua;
+    border: solid;
+    margin-left: -80%;
+    margin-right: -50%;
+
+}
+
+#inserir-mail{
+
+    margin: 30px auto;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    display: flex !important;
+    justify-content: center;
+    border-radius: -1rem;
+    
+}
+
+#inserir-senha{
+
+    margin: 30px auto;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: -1rem;
+
+}
+
+#botao-login{
+
+    margin: 30px auto;
+    width: 30px;
+    border-radius: -1rem;
+
+}
+
+#nome-completo{
+
+    height: 10px;
+    margin-left: -176px;
+}   
+
+
