@@ -1,3 +1,6 @@
+<?php include("conexao-com-bd.php"); ?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
   
@@ -37,7 +40,7 @@
 
         <section>
 
-            <form id="tela-total" action="" class="form-signin" method="post">
+            <form method="get" action="conectBD.php" class="formulario">
         
             
                 <h1 id="cor-login"class="h3 mb-3 font-weight-normal;">Cadastro</h1> 
@@ -61,33 +64,8 @@
         
                 <input id="cancelar" type="reset" class="btn btn-danger text-white" data-bs-toggle="modal" data-bs-target="#msgCancelar" value="Limpar">
         
-                <div class="modal fade" id="msgCancelar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="msgCancelar" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="msgCancelar">Deseja realmente cancelar?</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-        
-                            <div class="modal-body">
-                                Atenção! Todos os dados serão pedidos
-                            </div>
-        
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Não</button>
-                                <a href="./cadastro.html" class="btn btn-secondary">Sim</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-
-
-
             </form>
-
         </section>
-
     </main>
     
 
