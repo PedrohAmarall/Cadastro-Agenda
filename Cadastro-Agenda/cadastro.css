@@ -3,7 +3,7 @@
 
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 20% ;
+    width: 100% ;
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -35,6 +35,17 @@
     position: absolute
 
 }
+#tela-total{
+
+    max-width: 600px;
+    right: auto;
+    background-color: #f1f9f9;
+    border: solid;
+    margin-left: -80%;
+    margin-right: -50%;
+    
+
+}
 
 #bar{
 
@@ -44,19 +55,11 @@
     width: 135vh auto ;
     height: 0vh ;
     margin: 100px auto ;
+    background-color: rgb(129, 129, 129);
    
 }
 
-#tela-total{
 
-    max-width: 600px;
-    right: auto;
-    background-color: aqua;
-    border: solid;
-    margin-left: -80%;
-    margin-right: -50%;
-
-}
 
 #inserir-mail{
 
@@ -88,10 +91,56 @@
 
 }
 
-#nome-completo{
+/*Celular*/
+#formInputCódigo{
+    margin-left: 51px;
+    margin-right: -240px;
+    width: 329px;
+} 
 
-    height: 10px;
-    margin-left: -176px;
-}   
+/*Nome*/
+#formInputNome{
+    margin-left: 51px;
+    margin-right: -240px;
+    width: 329px;
+}
+
+
+/*e-mail*/
+#formInputDescricao{
+    margin-left: 51px;
+    margin-right: -240px;
+    width: 329px;
+}
+
+#directmail{
+
+    margin-left: -65%;
+}
+
+#directcell{
+
+    margin-left: -46%;
+
+}
+
+#directnome{
+
+    margin-left: -46%;
+
+}
+
+#cadastrar{
+    
+    margin: 0px 0px 16px;
+    border-color: black;
+}
+
+#cancelar{
+
+    margin: 0px 0px 16px;
+    border-color: black;
+    width: 22%;
+}
 
 
